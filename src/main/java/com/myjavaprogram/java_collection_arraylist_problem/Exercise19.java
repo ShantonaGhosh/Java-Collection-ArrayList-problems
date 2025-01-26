@@ -1,0 +1,21 @@
+
+package com.myjavaprogram.java_collection_arraylist_problem;
+
+import java.util.ArrayList;
+
+public class Exercise19 {
+      public static void main(String[] args) {
+        ArrayList<String> c1 = new ArrayList<String>();
+        c1.add("Red");
+        c1.add("Green");
+        c1.add("Black");
+        c1.add("blue");
+        c1.trimToSize();
+       
+       System.out.println(c1);
+   
+
+           
+    }
+    
+}
